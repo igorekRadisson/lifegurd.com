@@ -1,0 +1,162 @@
+body{
+	color:#000500; 
+	font-size: 16px;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+.wrapper{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 400px;
+	line-height: 60px;
+	color: #FFFFFF;
+}
+h1 .lg{
+	font-size: 70px;
+	font-weight: 700px;
+	line-height: 90px;
+	display: block;
+	letter-spacing: 3px;
+	margin-bottom: 90px;
+}
+h1 .sm{
+	font-size: 40px;
+	font-weight: 300px;
+	line-height: 60px;
+}
+/*buttons*/
+
+.btn{
+	display: inline-block;
+	vertical-align: middle;
+	height: 42px;
+	padding: 11px 35px 0;
+	border: 2px solid #FCFFFA;
+	background-color: transparent;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 600px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: #FF8000;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-color: #FF8000;
+}
+header{
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	right:0px;
+	z-index: 99;
+}
+.header_wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #D6191F;
+	background-color: #D6191F;
+	color: #D0FF00;
+	border-radius: 50%;
+	font-family: 'Montserrat' sans-serif;
+	font-size: 45px;
+	font-weight: 700px;
+	line-height:45px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.menu{
+	list-style: none;
+	display: flex;
+
+}
+.menu_item{
+	margin-left: 90px;
+	position: relative;
+}
+.menu_item:after{
+	content: '\\\\';
+	display: block;
+	font-size: 18px;
+	font-weight: 600px;
+	line-height: 20px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 100%;
+	top: 0px;
+	margin-left: 34px;
+}
+.menu_item:last-child:after{display: none;}
+.menu_link{
+	font-size: 18px;
+	font-weight: 600px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#000500;
+}
+.menu_link:hover{
+	color: #FFFFFF;
+} 
+.banner{
+	padding-top: 420px;
+	padding-bottom: 280px;
+	height:200px;
+	background: url("Lifeguard-Certificate.jpg") no-repeat center top;
+	text-align: center;
+	background-size: contain;
+}
+.about{
+	padding: 100px 0;
+}
+.heading{
+	padding-bottom: 1100px;
+	display: flex;
+	-ms-align-items:center;
+	align-items: center;
+	margin-bottom: 150px;
+}
+.heading h2{
+    color: #000000;
+    font-size:30px;
+    font-weight: 700px;
+    line-height: 35px;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 40px;
+}
+.heading h2:after{
+	content: '';
+	display: block;
+	width: 4px;
+	height: 45px;
+	background-color: #D0FF00;
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-top: -22px;
+	margin-left: 19px;
+}
+.heading p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.about_wrap{
+	
+}
